@@ -1,0 +1,36 @@
+.social,.correo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card-social {
+  width: auto;
+  text-align: center;
+  border: 3px solid #00a7e1;
+  border-radius: 50px;
+  padding: 1% 3%;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.link-social {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #00a7e1;
+  font-size: 1.2rem;
+  gap: 5px;
+  transition: 300ms;
+}
+
+.card-social:hover {
+  box-shadow: inset 0 0 3px #0099ff, 0 0 3px #0099ff, inset 0 0 6px #0099ff,
+    0 0 6px #0099ff, inset 0 0 9px #0099ff, 0 0 9px #0099ff,
+    inset 0 0 12px #ff00de, 0 0 12px #ff00de, inset 0 0 15px #ff00de,
+    0 0 15px #ff00de, inset 0 0 18px #ff00de, 0 0 18px #ff00de,
+    inset 0 0 21px #ff00de, 0 0 21px #ff00de;
+}

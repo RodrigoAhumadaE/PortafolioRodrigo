@@ -1,0 +1,66 @@
+/* reset css */
+*{
+  box-sizing: border-box;   /* incluye padding y border en el calculo del tamaño*/
+  /* position: relative;        establece la posicion de todos los hijos en relacion al padre inmediato */
+  min-width: 0;             /* evita que los elementos contenidos en grid o flex salga fuera de estos */
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  min-height: 100dvh;       /* body con una minima altura ajustada a la pantalla disponible */
+  background-color: #00171F;
+  color: #FFF;
+  font-family: Roboto;
+}
+
+h1, h2, h3, h4{
+  text-wrap: balance;       /* evita que el título que se divide en 2 lineas deje una palabra sola en la 2da */
+}
+
+p{
+  text-wrap: pretty;        /* evita que en los parrafos la última linea tenga solo una palabra */
+}
+
+.container{
+  max-width: 1920px;
+  width: 100%;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container h1{
+  margin: 10px 0;
+
+}
+
+.seccion{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+  row-gap: 10px;
+}
+
+.card{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 720px) {
+  .seccion{
+    width: 100%;
+    padding: 10px;
+  }
+
+  .card{
+    flex-direction: column;
+    font-size: 0.8rem;
+  }
+}

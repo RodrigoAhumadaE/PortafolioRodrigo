@@ -1,0 +1,42 @@
+.titulo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+.foto-perfil{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border: #302B27 solid 10px;
+    background-color: #302B27;
+}
+
+.foto-perfil img{
+    width: 110%;
+    height: 110%;
+    object-fit: cover;
+}
+
+.info-perfil{
+    width: 70%;
+}
+
+.info-perfil a{
+    color: #00A7E1;
+}
+
+@media only screen and (max-width: 720px) {
+    .info-perfil p{
+        text-align: center;
+    }
+}
