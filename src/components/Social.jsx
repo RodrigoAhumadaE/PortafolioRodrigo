@@ -4,7 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 import "../page/css/Social.css";
 
 export default function Social() {
-  const copyToClipboard = () => {
+  const copyToClipboard = () =>{
     navigator.clipboard.writeText("rod.ahumada@duocuc.cl");
     toast("¡¡Correo copiado!!", {
       position: "bottom-left",

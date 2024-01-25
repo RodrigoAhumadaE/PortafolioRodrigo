@@ -54,6 +54,9 @@ p{
 }
 
 @media only screen and (max-width: 720px) {
+  .container{
+    max-width: 720px;
+  }
   .seccion{
     width: 100%;
     padding: 10px;

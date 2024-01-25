@@ -1,14 +1,14 @@
-import nitzii from "../assets/img/inicioNitZii.png";
-import pacman from "../assets/img/PacmanAlternativo.png";
-import redprotec from "../assets/img/reddeproteccioncl.png";
-import reactjs from "../assets/img/ReactJS.png";
-import vite from "../assets/img/Vite.png";
-import ccharp from "../assets/img/CCharp.png";
-import dotnet from "../assets/img/DotNet.png";
-import mysql from "../assets/img/MySQL.png";
-import html from "../assets/img/HTML.png";
-import css from "../assets/img/CSS.png";
-import js from "../assets/img/JS.png";
+import nitzii from "../assets/img/inicioNitZii.webp";
+import pacman from "../assets/img/PacmanAlternativo.webp";
+import redprotec from "../assets/img/reddeproteccioncl.webp";
+import reactjs from "../assets/img/ReactJS.webp";
+import vite from "../assets/img/Vite.webp";
+import ccharp from "../assets/img/CCharp.webp";
+import dotnet from "../assets/img/DotNet.webp";
+import mysql from "../assets/img/MySQL.webp";
+import html from "../assets/img/HTML.webp";
+import css from "../assets/img/CSS.webp";
+import js from "../assets/img/JS.webp";
 import "../page/css/Proyectos.css";
 
 export default function Proyectos() {
@@ -33,20 +33,32 @@ export default function Proyectos() {
             películas está sacada de la API pública de The Movie DB.
           </p>
           <div className="herramientas">
-            <div className="link"></div>
+            <div className="link">
+              <a href="#">En construcción</a>
+            </div>
             <div className="img-herramientas">
-              <img src={reactjs} alt="logo react js" />
-              <img src={vite} alt="logo vite" />
-              <img src={ccharp} alt="logo C#" />
-              <img src={dotnet} alt="logo .Net" />
-              <img src={mysql} alt="logo MySQL" />
+              <div className="contet-img">
+                <img src={reactjs} alt="logo react js" />
+              </div>
+              <div className="contet-img">
+                <img src={vite} alt="logo vite" />
+              </div>
+              <div className="contet-img">
+                <img src={ccharp} alt="logo C#" />
+              </div>
+              <div className="contet-img">
+                <img src={dotnet} alt="logo .Net" />
+              </div>
+              <div className="contet-img">
+                <img src={mysql} alt="logo MySQL" />
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div className="card-proyecto">
         <div className="encabezado">
-          <h4>Página reddeproteccion.cl</h4>
+          <h4>Página RPS</h4>
           <img
             src={redprotec}
             alt="Imagen pagina de inicio reddeproteccion.cl"
@@ -72,10 +84,18 @@ export default function Proyectos() {
               </a>
             </div>
             <div className="img-herramientas">
-              <img src={reactjs} alt="logo react js" />
-              <img src={html} alt="logo HTML" />
-              <img src={css} alt="logo CSS" />
-              <img src={js} alt="logo Javascript" />
+              <div className="contet-img">
+                <img src={reactjs} alt="logo react js" />
+              </div>
+              <div className="contet-img">
+                <img src={html} alt="logo HTML" />
+              </div>
+              <div className="contet-img">
+                <img src={css} alt="logo CSS" />
+              </div>
+              <div className="contet-img">
+                <img src={js} alt="logo Javascript" />
+              </div>
             </div>
           </div>
         </div>
@@ -103,10 +123,15 @@ export default function Proyectos() {
               </a>
             </div>
             <div className="img-herramientas">
-              <img src={html} alt="logo HTML" />
-              <img src={css} alt="logo CSS" />
-              <p id="social"></p>
-              <img src={js} alt="logo JavaScript" />
+              <div className="contet-img">
+                <img src={html} alt="logo HTML" />
+              </div>
+              <div className="contet-img">
+                <img src={css} alt="logo CSS" />
+              </div>
+              <div className="contet-img">
+                <img src={js} alt="logo JavaScript" />
+              </div>                
             </div>
           </div>
         </div>

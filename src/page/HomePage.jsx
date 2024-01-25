@@ -11,7 +11,6 @@ export default function HomePage() {
         <Navbar />
         <p id="sobremi"></p>
         <div className="container">
-          <h1>Portafolio</h1>
           <div className="seccion">
             <SobreMi />
           </div>

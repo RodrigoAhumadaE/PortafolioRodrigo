@@ -1,11 +1,11 @@
-import perfil from "../assets/perfil.png";
+import perfil from "../assets/img/perfil.webp";
 import "../page/css/SobreMi.css";
 
 export default function SobreMi() {
   return (
     <>
       <div className="titulo">
-        <h2>Rodrigo Ahumada</h2>
+        <h1>Rodrigo Ahumada</h1>
         <h3>
           Analista Programador Computacional · Desarrollador Fullstack C# .Net ·
           Desarrollador Front-end React JS
