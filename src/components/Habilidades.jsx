@@ -15,7 +15,6 @@ export default function Habilidades() {
             <p>{data.nombre}</p>
           </div>
         ))}
-        <p id="proyectos"></p>
       </div>   
     </> 
   )

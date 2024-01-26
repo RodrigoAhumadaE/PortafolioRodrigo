@@ -13,12 +13,15 @@ export default function HomePage() {
         <div className="container">
           <div className="seccion">
             <SobreMi />
+            <span id="social"></span>
           </div>
           <div className="seccion">
             <Social />
+            <span id="habilidades"></span>
           </div>
           <div className="seccion">
             <Habilidades />
+            <span id="proyectos"></span>
           </div>        
           <div className="seccion">
             <Proyectos />

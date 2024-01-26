@@ -62,7 +62,6 @@ export default function Social() {
           </a>
         </div>
       </div>
-      <span id="habilidades"></span>
       <div className="correo">
         <div className="card-social">
           <a className="link-social" href={"mailto:rod.ahumada@duocuc.cl"}>
