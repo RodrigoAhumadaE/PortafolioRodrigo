@@ -9,6 +9,18 @@
     margin: 20px;
 }
 
+.titulo h1{
+    font-size: 3vw;
+}
+
+.titulo h2{
+    font-size: 2vw;
+}
+
+.titulo h3{
+    font-size: 1.5vw;
+}
+
 .foto-perfil{
     width: 200px;
     height: 200px;
@@ -29,6 +41,11 @@
 
 .info-perfil{
     width: 70%;
+}
+
+.info-perfil p{
+    font-size: 2vh;
+    text-align: justify;
 }
 
 

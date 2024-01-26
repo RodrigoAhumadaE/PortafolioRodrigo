@@ -28,12 +28,16 @@
     object-fit: contain;
 }
 
+.habilidad p{
+    font-size: 1.3vw;
+    white-space: nowrap;
+}
+
 @media only screen and (max-width: 720px) {
     .lista{
         padding: 0 5%;
     }
     .habilidad{
-        font-size: 0.5rem;
         border-radius: 8px;
     }
 }
