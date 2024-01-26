@@ -37,7 +37,12 @@
     .lista{
         padding: 0 5%;
     }
+
     .habilidad{
         border-radius: 8px;
+    }
+
+    .habilidad p{
+        font-size: 1.8vw;
     }
 }
