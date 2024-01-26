@@ -34,7 +34,7 @@ export default function Proyectos() {
           </p>
           <div className="herramientas">
             <div className="link">
-              <a href="#">En construcción</a>
+              <a href="#" onClick={(e) => {e.preventDefault();}}>En construcción</a>
             </div>
             <div className="img-herramientas">
               <div className="contet-img">

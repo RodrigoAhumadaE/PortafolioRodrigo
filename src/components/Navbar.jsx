@@ -12,7 +12,7 @@ export default function Navbar() {
   return(
     <nav className="navbar">
       <div className="icono-navbar">
-        <a href="#sobremi"><img src={Icono} alt="icono página" /></a>
+        <a><img src={Icono} alt="icono página" /></a>
       </div>
       <div className="menu-navbar">
         <ul>
