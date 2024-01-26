@@ -42,7 +42,8 @@
 .descripcion p{
     height: 80%;
     padding: 5% 1%;
-    font-size: 1.1vw;
+    font-size: 1.9vh;
+    text-align: justify;
 }
 
 .herramientas{
@@ -91,10 +92,6 @@
 
     .encabezado h4{
         font-size: 0.8rem;
-    }
-
-    .descripcion p{
-        font-size: 0.65rem;
     }
 
     .herramientas{
