@@ -1,0 +1,76 @@
+.modal-img{
+    width: 80%;
+    height: auto;
+    padding: 10px 30px 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #003459;
+    border-radius: 25px;
+    z-index: 9999;
+    box-shadow: 0 0 20px rgba(0, 0 , 0, .8);
+}
+
+.header-modal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-modal{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 11%;
+}
+
+.cerrar{
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cerrar p{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 5vw;
+}
+
+.cerrar p:hover{
+    color: #00A7E1;
+    transition: 300ms;
+}
+
+.content-slider{
+    width: 100%;
+    height: auto;
+}
+
+.card-slider{
+    width: 100% !important;
+    height: auto;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+.card-slider h4{
+    text-align: center;
+    font-size: 2vw;
+}
+
+.card-slider img{    
+    width: 70%;
+    height: auto;
+    object-fit: contain;
+}

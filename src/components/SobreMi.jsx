@@ -22,7 +22,6 @@ export default function SobreMi() {
             gráfico e ilustración digital. Me apasiona el diseño web y busco
             especializarme en esa área.
           </p>
-          {/* <span id="social"></span> */}
         </div>
       </div>
     </>
