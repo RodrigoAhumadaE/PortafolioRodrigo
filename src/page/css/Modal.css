@@ -81,9 +81,20 @@
 }
 
 .card-slider img{    
-    width: 85%;
+    width: 80%;
     height: auto;
     object-fit: cover;
+}
+
+@media only screen and (max-width: 1366px){
+    .modal{
+        max-width: 1366px;
+        width: 65%;
+    }
+
+    .titulo-modal{
+        font-size: 1.8vw;
+    }
 }
 
 @media only screen and (max-width: 720px) {
