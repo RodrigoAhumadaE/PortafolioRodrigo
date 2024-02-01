@@ -1,5 +1,14 @@
+.modal{
+    max-width: 1920px;
+    width: 70%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
 .modal-img{
-    width: 80%;
+    width: 100%;
     height: auto;
     padding: 10px 30px 20px;
     margin: 10px;
@@ -23,6 +32,7 @@
     display: flex;
     justify-content: center;
     padding-left: 11%;
+    font-size: 2vw;
 }
 
 .cerrar{
@@ -38,7 +48,7 @@
     width: 100%;
     justify-content: flex-end;
     align-items: center;
-    font-size: 5vw;
+    font-size: 3vw;
 }
 
 .cerrar p:hover{
@@ -61,16 +71,43 @@
     background-color: transparent;
     border-radius: 10px;
     margin: 2px;
+    gap: 5px;
     box-sizing: border-box;
 }
 
 .card-slider h4{
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 .card-slider img{    
-    width: 70%;
+    width: 85%;
     height: auto;
-    object-fit: contain;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 720px) {
+    .modal{
+        width: 100%;
+    }
+
+    .titulo-modal, .cerrar p{
+        font-size: 5vw;
+    }
+
+    .card-slider h4{
+        font-size: 3vw;
+    }
+
+    .card-slider img{    
+        width: 98%;
+    }
+
+    .slick-dots{
+        padding-bottom: 5px;
+    }
+
+    .slick-dots li.slick-active button:before{
+        color: white;
+    }
 }

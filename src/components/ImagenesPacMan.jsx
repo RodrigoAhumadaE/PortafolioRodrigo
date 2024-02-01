@@ -1,9 +1,14 @@
-import pacman from "../assets/img/PacmanAlternativo.webp";
+import pacman from "../assets/img/pacman.png";
+import gameover from "../assets/img/gameover.png";
 
 const imagenesPacMan = [
   {
     img: pacman,
-    nombre: "Pacman"
+    nombre: "Juego"
+  },
+  {
+    img: gameover,
+    nombre: "Game Over"
   }
 ];
 

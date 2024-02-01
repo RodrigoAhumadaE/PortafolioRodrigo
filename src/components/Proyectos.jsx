@@ -10,8 +10,12 @@ import html from "../assets/img/HTML.webp";
 import css from "../assets/img/CSS.webp";
 import js from "../assets/img/JS.webp";
 import "../page/css/Proyectos.css";
+import Modal from "./Modal";
 
 export default function Proyectos() {
+
+  const modal = new Modal();
+
   return (
     <>
       <div className="titulo">
@@ -20,7 +24,7 @@ export default function Proyectos() {
       <div className="card-proyecto">
         <div className="encabezado">
           <h4>Red Social NitZii</h4>
-          <img src={nitzii} alt="Imagen pagina de inicio NitZii" />
+          <img src={nitzii} alt="Imagen pagina de inicio NitZii" onClick={() => {modal.abrirModal("nitzii")}} />
         </div>
         <div className="descripcion">
           <p>
@@ -62,6 +66,7 @@ export default function Proyectos() {
           <img
             src={redprotec}
             alt="Imagen pagina de inicio reddeproteccion.cl"
+            onClick={() => {modal.abrirModal("rps")}}
           />
         </div>
         <div className="descripcion">
@@ -103,7 +108,7 @@ export default function Proyectos() {
       <div className="card-proyecto">
         <div className="encabezado">
           <h4>Pac-Man Alternativo</h4>
-          <img src={pacman} alt="Imagen juego pacman alternativo" />
+          <img src={pacman} alt="Imagen juego pacman alternativo" onClick={() => {modal.abrirModal("pacman")}} />
         </div>
         <div className="descripcion">
           <p>
