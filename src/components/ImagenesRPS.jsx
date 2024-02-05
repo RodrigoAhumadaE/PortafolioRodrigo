@@ -30,7 +30,7 @@ const imagenesRPS = [
     },
     {
         img: tramites,
-        nombre: "tramites"
+        nombre: "Trámites"
     },
     {
         img: usuario,

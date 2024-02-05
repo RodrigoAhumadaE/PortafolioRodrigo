@@ -46,7 +46,7 @@ export default function Social() {
           >
             <FaLinkedin />
             <strong>
-              <p>LinkeIn</p>
+              <p>LinkedIn</p>
             </strong>
           </a>
         </div>

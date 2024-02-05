@@ -3,10 +3,8 @@ import React from 'react';
 class Modal extends React.Component{
   
   abrirModal = (nombre) => {
-    console.log(nombre);
     let elementModal = document.getElementById(nombre);
     let elementContainer = document.querySelector(".container");
-    console.log(elementModal, elementContainer);
     elementModal.classList.remove("ocultar");
     elementModal.classList.add("mostrar");
     elementContainer.classList.add("desenfocar");
@@ -19,8 +17,6 @@ class Modal extends React.Component{
     elementModal.classList.add("ocultar");
     elementContainer.classList.remove("desenfocar");
   };
-
-  return;
 }
 
 export default Modal;

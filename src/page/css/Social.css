@@ -22,7 +22,7 @@
   justify-content: center;
   text-decoration: none;
   color: #00a7e1;
-  font-size: 1.2rem;
+  font-size: 1.5vw;
   gap: 5px;
   transition: 300ms;
 }
@@ -33,4 +33,27 @@
     inset 0 0 12px #ff00de, 0 0 12px #ff00de, inset 0 0 15px #ff00de,
     0 0 15px #ff00de, inset 0 0 18px #ff00de, 0 0 18px #ff00de,
     inset 0 0 21px #ff00de, 0 0 21px #ff00de;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .card-social{
+    border: 2.8px solid #00a7e1;
+  }
+
+  .link-social{
+    font-size: 2dvw;
+  }
+}
+
+
+@media only screen and (max-width: 720px) {
+
+  .card-social{
+    border: 2.5px solid #00a7e1;
+  }
+
+  .link-social{
+    font-size: 2.5dvw;
+  }
 }
