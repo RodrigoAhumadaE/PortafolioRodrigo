@@ -10,22 +10,18 @@ import Social from "../components/Social";
 export default function HomePage() {
     return(
       <>
-        <p id="sobremi"></p>
         <div className="container">
           <Navbar />
-          <div className="seccion">
+          <div className="seccion" id="sobremi">
             <SobreMi />
-            <span id="social"></span>
           </div>
-          <div className="seccion">
+          <div className="seccion" id="social">
             <Social />
-            <span id="habilidades"></span>
           </div>
-          <div className="seccion">
+          <div className="seccion" id="habilidades">
             <Habilidades />
-            <span id="proyectos"></span>
           </div>        
-          <div className="seccion">
+          <div className="seccion" id="proyectos">
             <Proyectos />
           </div>
         </div>

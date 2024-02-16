@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    row-gap: 10px;
+    gap: 20px 0;
     text-align: center;
     margin: 20px;
 }
@@ -36,7 +36,7 @@
 .foto-perfil img{
     width: 110%;
     height: 110%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .info-perfil{
